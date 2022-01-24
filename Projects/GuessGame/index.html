@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya testing</title>
+    <style>
+        body{
+            background: skyblue;
+            text-align: center;
+            font-size: x-large;
+            margin: 100px, auto;
+        }
+
+        input,button{
+            font-size: x-large;
+            text-align: center;
+            border-radius: 20px;
+        }
+    </style>
+
+    <script>
+         var guess = Math.floor((Math.random() * 100) + 1); //get random from 1 to 100 //floor converts float to int
+         console.log(guess);
+         function findNumber(){
+             var num = parseInt(document.getElementById("in").value);
+             if(num === guess) // === strictly, it can check the datatype and value
+                document.getElementById("out").innerHTML = "Congrats! Got it Correctly!";
+             else if(num > guess)
+                document.getElementById("out").innerText = "Guess a small number!";
+             else 
+                document.getElementById("out").innerText = "Guess a large number!";           
+         }
+
+    </script>
+</head>
+<body>
+    <p>guess he number between 1 and 100!</p>
+    <input id="in" type="number">
+    <button onclick="findNumber()"> check </button>
+    <p id="out"> result </p>
+</body>
+</html>

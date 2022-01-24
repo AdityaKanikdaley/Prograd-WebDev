@@ -1,0 +1,25 @@
+.grid-container {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: auto auto;
+    display: flex;
+    justify-content: center;
+  }
+
+.grid-item{
+    text-align: center;
+    border: solid 3px grey;
+    border-radius: 5px;
+}
+.score{
+    font-size: 30px;
+    font-weight: bold;
+}
+.names{
+    font-size: 17px;
+}
+#score{
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 40px;
+}

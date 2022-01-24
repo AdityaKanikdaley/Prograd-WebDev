@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game</title>
+    <style>
+        #btn {
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+
+        #btn:hover {
+            background-color: yellow;
+            color: black;
+        }
+
+        body {
+            background-image: url('dice.jpg');
+            text-align: center;
+            font-size: x-large;
+            margin: 100px, auto;
+            height: 100vh;
+            /* view-port height: ;*/
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        input,
+        button {
+            font-size: x-large;
+            text-align: center;
+            border-radius: 15px;
+        }
+    </style>
+
+    <script>
+        var sum_x = 0;
+        var sum_y = 0;
+        var p1 = true;
+        function diceNumber() {
+            var x_guess = Math.floor((Math.random() * 6) + 1); //get random from 1 to 6 //floor converts float to int 
+            var y_guess = Math.floor((Math.random() * 6) + 1); //get random from 1 to 6 //floor converts float to int
+
+            x = document.getElementById("player1");
+            y = document.getElementById("player2");
+
+            if (p1 == true) {
+                x.setAttribute("type", "numeric");
+                sum_x += x_guess;
+                console.log("sum x: ", sum_x);
+                console.log("guess x: ", x_guess);
+                alert("Player 1 got: " + x_guess);
+                x.setAttribute("value", sum_x);
+                p1 = false;
+            } else {
+                y.setAttribute("type", "numeric");
+                sum_y += y_guess
+                console.log("sum y: ", sum_y);
+                alert("Player 2 got: " + y_guess);
+                y.setAttribute("value", sum_y);
+                p1 = true;
+            }
+
+            if (sum_x >= 50) {
+                console.log("Congrats Player 1 WON!");
+                sum_y = 0;
+                sum_x = 0;
+                x.setAttribute("value", sum_x);
+                y.setAttribute("value", sum_y);
+                alert("Congrats Player 1 WON!");
+            }
+            if (sum_y >= 50) {
+                console.log("Congrats Player 2 WON!");
+                sum_y = 0;
+                sum_x = 0;
+                x.setAttribute("value", sum_x);
+                y.setAttribute("value", sum_y);
+                alert("Congrats Player 2 WON!");
+            }
+        }
+
+
+    </script>
+</head>
+
+<body>
+    <p style="font-size: 50px; color: red">The Game of Dice!</p>
+    <p style="color: greenyellow">Player 1: <input id="player1" type="numeric"></p>
+    <p style="color: greenyellow">Player 2: <input id="player2" type="numeric"></p>
+    <button id="btn" onclick="diceNumber()"> Roll </button>
+</body>
+
+</html>
