@@ -11,3 +11,4 @@
 4. Lab Story Time: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/4_LabStoryTime/src) <br>
 6. Higher Order Function: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/6_HigherOrderFunction) <br>
 7. Chocoloate Dispenser: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/7_ChocoloateDispenser/src) <br>
+8. SuperwarsBasic: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/8_SuperwarsBasic/index.html) <br>
