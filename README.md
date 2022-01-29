@@ -13,3 +13,4 @@
 6. Higher Order Function: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/6_HigherOrderFunction) <br>
 7. Chocoloate Dispenser: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/7_ChocoloateDispenser/src) <br>
 8. SuperwarsBasic: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/8_SuperwarsBasic/index.html) <br>
+9. Oops Blog: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/10_OopsBlog/displayCard.html) <br>
