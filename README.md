@@ -15,3 +15,4 @@
 8. SuperwarsBasic: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/8_SuperwarsBasic/index.html) <br>
 9. Brrrgrrr: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/9_Brrrgrrr/src/index.html) <br>
 10. Oops Blog: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/10_OopsBlog/displayCard.html) <br>
+11. Smartphones: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/11_Smartphones/) <br>
