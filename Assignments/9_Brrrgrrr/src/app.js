@@ -119,11 +119,67 @@ document.querySelector(".btn-lettuce").onclick = function () {
 }
 
 //Challenge 1 - Add/Remove the class active to the buttons based on state
-
+function renderButtons(){
+  if(state.Patty)
+    document.querySelector(".btn-patty").classList.add("active") 
+  else
+    document.querySelector(".btn-patty").classList.remove("active") 
+  if(state.Tomatoes)
+    document.querySelector(".btn-tomatoes").classList.add("active") 
+  else
+    document.querySelector(".btn-tomatoes").classList.remove("active") 
+  if(state.Cheese)
+    document.querySelector(".btn-cheese").classList.add("active") 
+  else
+    document.querySelector(".btn-cheese").classList.remove("active")
+  if(state.Onions)
+    document.querySelector(".btn-onions").classList.add("active") 
+  else
+    document.querySelector(".btn-onions").classList.remove("active") 
+  if(state.Lettuce)
+    document.querySelector(".btn-lettuce").classList.add("active") 
+  else
+    document.querySelector(".btn-lettuce").classList.remove("active") 
+}
 
 //Challenge 2 - Render only the items selected in the ingredients board based on the state
-
+function renderIngredientsBoard(){
+  if(!state.Patty)
+    document.getElementsByClassName("items")[0].innerHTML = " "
+  else
+    document.getElementsByClassName("items")[0].innerHTML = "Patty"
+  if(!state.Cheese)
+    document.getElementsByClassName("items")[1].innerHTML = " "
+  else
+    document.getElementsByClassName("items")[1].innerHTML = "Cheese"
+  if(!state.Tomatoes)
+    document.getElementsByClassName("items")[2].innerHTML = " "
+  else
+    document.getElementsByClassName("items")[2].innerHTML = "Tomatoes"
+  if(!state.Onions)
+    document.getElementsByClassName("items")[3].innerHTML = " "
+  else
+    document.getElementsByClassName("items")[3].innerHTML = "Onions"  
+  if(!state.Lettuce)
+    document.getElementsByClassName("items")[4].innerHTML = " "
+  else
+    document.getElementsByClassName("items")[4].innerHTML = "Lettuce"
+} 
 
 //Judgement 1
 //In the p element having price-details as the class, display the calculated
 //price based on ingredients
+function renderPrice(){
+  var price = 20
+  if(state.Patty)
+    price = ingredients.Patty + price
+  if(state.Cheese)
+    price = ingredients.Cheese+ price
+  if(state.Tomatoes)
+    price += ingredients.Tomatoes
+  if(state.Onions)
+    price+= ingredients.Onions
+ if(state.Lettuce)
+    price += ingredients.Lettuce
+  document.querySelector(".price-details").innerHTML = "INR "+price
+}
