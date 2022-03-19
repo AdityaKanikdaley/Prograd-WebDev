@@ -19,3 +19,7 @@
 12. SuperwarsOops: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/12_SuperwarsOops/index.html)<br>
 13. SuperwarsComplete: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/13_SuperwarsComplete/index.html)<br>
 14. ExpenseTracker: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/14_ExpenseTracker/index.html)<br>
+15. PromiseContacts: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/15_PromiseContacts/index.html)<br>
+16. WeatherForecast: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/16_WeatherForecast)<br>
+17. JSLiveNews: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/17_JSLiveNews/index.html)<br>
+18. JSRegex: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/18_JSRegex/index.html)<br>
