@@ -16,10 +16,17 @@
 9. Brrrgrrr: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/9_Brrrgrrr/src/index.html) <br>
 10. Oops Blog: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/10_OopsBlog/displayCard.html) <br>
 11. Smartphones: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/11_Smartphones/) <br>
-12. SuperwarsOops: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/12_SuperwarsOops/index.html)<br>
-13. SuperwarsComplete: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/13_SuperwarsComplete/index.html)<br>
-14. ExpenseTracker: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/14_ExpenseTracker/index.html)<br>
-15. PromiseContacts: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/15_PromiseContacts/index.html)<br>
-16. WeatherForecast: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/16_WeatherForecast)<br>
-17. JSLiveNews: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/17_JSLiveNews/index.html)<br>
-18. JSRegex: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/18_JSRegex/index.html)<br>
+12. SuperwarsOops: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/12_SuperwarsOops/index.html) <br>
+13. SuperwarsComplete: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/13_SuperwarsComplete/index.html) <br>
+14. ExpenseTracker: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/14_ExpenseTracker/index.html) <br>
+15. PromiseContacts: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/15_PromiseContacts/index.html) <br>
+16. WeatherForecast: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/16_WeatherForecast) <br>
+17. JSLiveNews: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/17_JSLiveNews/index.html) <br>
+18. JSRegex: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/Assignments/18_JSRegex/index.html) <br>
+
+## Extra Assignments:
+1. SuperwarsArray: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/ExtraAssignments/1_SuperwarsArray/index.html) <br>
+2. CakeWorld: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/ExtraAssignments/2_CakeWorld/index.html) <br>
+3. SmartWatchUI: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/ExtraAssignments/3_SmartWatchUI/index.html) <br>
+4. SmartWatchSMS: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/ExtraAssignments/4_SmartWatchSMS/index.html) <br>
+5. SmartWatchMediaPlayer: [Link](https://adityakanikdaley.github.io/Prograd-WebDev/ExtraAssignments/5_SmartWatchMediaPlayer/index.html) <br>
